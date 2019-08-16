@@ -33,7 +33,7 @@
   <packaging>bundle</packaging>
   <name>Apache Tika core</name>
   <url>http://tika.apache.org/</url>
-  <version>1.22-jahia2</version>
+  <version>1.22-jahia3-SNAPSHOT</version>
 
   <dependencies>
     <!-- Optional OSGi dependencies, used only when running within OSGi -->
