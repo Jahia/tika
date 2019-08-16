@@ -58,7 +58,11 @@ public class TaggedSAXException extends SAXException {
      */
     @Override
     public SAXException getCause() {
-        return (SAXException) super.getCause();
+        Throwable theCause = super.getCause();
+        if (theCause == null && getException() instanceof SAXException) {
+            return (SAXException) getException();
+        }
+        return (SAXException) theCause;
     }
 
 }
