@@ -32,6 +32,7 @@
   <artifactId>tika-core</artifactId>
   <packaging>bundle</packaging>
   <name>Apache Tika core</name>
+  <version>1.24.1-jahia1</version>
   <url>http://tika.apache.org/</url>
 
   <dependencies>
